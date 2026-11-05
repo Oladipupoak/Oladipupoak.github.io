@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Oladipupo Akinyan</title>
+  <meta name="description" content="Oladipupo Akinyan — Software &amp; Mobile Engineer" />
+  <meta property="og:title" content="Oladipupo Akinyan" />
+  <meta property="og:description" content="Software &amp; Mobile Engineer" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div>
+    <nav>
+      <div class="desktopNav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <ul>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <!-- <li><a href="places.html">Places</a></li> -->
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a></li>
+            <li><a href="work.html">Work</a></li>
+          </ul>
+        </ul>
+      </div>
+      <div class="mobileNav">
+        <div class="burger" onclick="toggleDrawer()" aria-label="Open menu">
+          <svg focusable="false" aria-hidden="true" viewBox="0 0 24 24">
+            <path d="M3 18h18v-2H3zm0-5h18v-2H3zm0-7v2h18V6z"></path>
+          </svg>
+        </div>
+      </div>
+      <div id="drawer-backdrop" class="drawer-backdrop" onclick="toggleDrawer(false)"></div>
+      <div id="mobile-drawer" class="drawer">
+        <div class="xIcon" onclick="toggleDrawer(false)" aria-label="Close menu">
+          <svg focusable="false" aria-hidden="true" viewBox="0 0 24 24">
+            <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
+          </svg>
+        </div>
+        <div class="mobileViewLinks">
+          <div><a href="index.html"><code>Home</code></a></div>
+          <div><a href="projects.html"><code>Projects</code></a></div>
+          <div><a href="skills.html"><code>Skills</code></a></div>
+          <!-- <div><a href="places.html"><code>Places</code></a></div> -->
+          <div><a href="contact.html"><code>Contact</code></a></div>
+          <div><a href="resume.pdf" target="_blank" rel="noopener noreferrer"><code>Resume</code></a></div>
+          <div><a href="work.html"><code>Work</code></a></div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="hero">
+      <h1 class="title">Oladipupo Akinyan</h1>
+      <p class="description">
+        I love <a href="work.html"><code>work</code></a>, building <a href="projects.html"><code>mobile &amp; web apps</code></a>, and collaborating with amazing people.
+      </p>
+      <p class="description">
+        Currently working at <a href="work.html"><code>ThreeSigmaTech</code></a> building <a href="projects.html"><code>Dritta</code></a> and contributing to <a href="https://theteacherfund.com" target="_blank" rel="noopener noreferrer"><code>The Teacher Fund</code></a>.
+      </p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
